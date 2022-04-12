@@ -43,7 +43,7 @@ print(sayilar)
 
 """
 yukarıdaki kodu anlayabilmek icin acıklama: range(len(sayilar))) komutuyla listenin 0. 
-indexinden itibaren son indexine kadar sırayla tanıttıgımız index degiskenine atadık.
+indexinden itibaren son indexine kadar olan elemanları sırayla tanıttıgımız index degiskenine atadık.
 
 """
 
