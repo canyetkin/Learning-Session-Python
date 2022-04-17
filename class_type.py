@@ -186,6 +186,11 @@ class Ucus():
             iptal_adedi,
             self.koltuk_sayisi_guncelle()))
             
+        else:
+            return "iptal edilmek istenen bilet adedi mevcut degil"
+            
+        
+            
         
     
         
