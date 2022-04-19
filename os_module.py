@@ -69,7 +69,7 @@ os.listdir('/Users/ahmetcanyetkin/Desktop')
 # In[7]:
 
 
-os.chdir('/Users/ahmetcanyetkin/Desktop')
+os.chdir('/Users/ahmetcanyetkin/Desktop') #change directory 
 
 
 # In[8]:
