@@ -191,7 +191,7 @@ verdigin deger kadar okuma yapar, asagıdaki gibi dinamik olarak da yazilabilir;
 
 
 yeni_dosya = os.open("yeni_dosya.txt", os.O_RDONLY)
-uzunluk = os.stat(yeni_dosya).st_size
+uzunluk = os.stat(yeni_dosya).st_size  #  .st_size uzantısına os.stat(yeni_dosya) komutuyla ulastik, dosyanin butun istatisliklerini cikti olaraak aldik.
 icerik = os.read(yeni_dosya,uzunluk)
 print(icerik.decode()) #bu satırda yukarıda encode komutuyla turkce karakterledi byte'a donusturmustuk,decode ile tekrar tam tersini  yaptik ve turkce karakterlere ulastik
 os.close(yeni_dosya)
@@ -210,7 +210,7 @@ dosya silme;;
 # In[28]:
 
 
-os.unlink("yeni_dosya.txt") #bunun sonucu olarak suan calismakta oldugum desktop klasorunden istedigim dosyayi sildi..
+os.unlink("yeni_dosya.txt") #bunun sonucu olarak suan calismakta oldugum desktop klasorunden istedigim dosyayi sildi.. uzerinde calistigim bölgeyi os.chdir() komutuyla degistirebilirim.
 
 
 # In[ ]:
